@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neuronios e Sinapse</title>
+    <style>
+        /* Estilo do botão de voltar */
+        .btn-voltar {
+            background-color: #28a745; /* Cor de fundo verde */
+            color: white;
+            font-size: 16px;
+            padding: 12px 25px; /* Aumenta o espaço interno */
+            border: none;
+            border-radius: 0; /* Remove bordas arredondadas */
+            margin-top: 30px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-voltar:hover {
+            background-color: #0056b3;
+        }
+
+        /* Estilo do container */
+        .container {
+            margin-top: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Caixa de texto com fundo verde claro */
+        .text-container {
+            background-color: #f0f8ff;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo das imagens */
+        img {
+            width: 45%; 
+            height: auto;
+            border-radius: 8px;
+            margin: 10px;
+            display: inline-block;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Rodapé estilizado */
+        footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #555;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo do texto ao lado da imagem */
+        .text-img-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 40px;
+            gap: 30px;
+        }
+
+        .text-img-container p {
+            width: 50%;
+            font-size: 18px;
+            text-align: justify;
+        }
+
+        h1 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        /* Ajuste no layout responsivo */
+        @media (max-width: 768px) {
+            .text-img-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .text-img-container p {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+
+            img {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Botão de Voltar -->
+    <div class="text-center">
+        <a href="paginateste.html" class="btn-voltar">Voltar</a>
+    </div>
+
+    <!-- Conteúdo -->
+    <div class="container">
+        <!-- Texto explicativo sobre neurônios e sinapses -->
+        <div class="text-container">
+            <p>Os neurônios são células especializadas responsáveis pela transmissão de sinais elétricos e químicos no sistema nervoso, permitindo a comunicação entre o cérebro, a medula espinhal e o resto do corpo. Eles se comunicam através das sinapses, que são conexões entre neurônios. Existem dois tipos principais de sinapse: elétrica, que é rápida e direta, e química, onde neurotransmissores são liberados para transmitir os sinais. Esse processo é essencial para funções como movimento, aprendizado e memória.</p>
+        </div>
+
+        <!-- Imagens lado a lado e separadas -->
+        <div>
+            <img src="funcaoneuronio.PNG" alt="Imagem sobre Neurônio">
+            <img src="funcaosinapse.PNG" alt="Imagem sobre Sinapse">
+        </div>
+
+        <h1>Neurônios</h1>
+        <div class="text-img-container">
+            <p>Os neurônios são células especializadas que desempenham um papel fundamental no sistema nervoso, permitindo a comunicação entre diferentes partes do corpo. Sua principal função é transmitir impulsos elétricos e sinais químicos para coordenar atividades corporais essenciais, como movimento, percepção e pensamento. Eles possuem uma estrutura única, composta por três partes principais: o corpo celular, os dendritos e o axônio. O corpo celular contém o núcleo da célula, enquanto os dendritos recebem sinais de outros neurônios e o axônio os transmite para outras células. Existem diversos tipos de neurônios, cada um com funções específicas. Por exemplo, os neurônios sensoriais são responsáveis por captar estímulos do ambiente e enviá-los ao sistema nervoso central, enquanto os neurônios motores transmitem os sinais do cérebro e da medula espinhal para os músculos, facilitando o movimento.</p>
+            <img src="neuronio.jpg" alt="Imagem do Neurônio">
+        </div>
+
+        <h1>Sinapses</h1>
+        <div class="text-img-container">
+            <p>Os neurônios se comunicam entre si através das sinapses, pontos de conexão onde ocorre a troca de sinais. Essa comunicação pode ser elétrica, direta e rápida, ou química, envolvendo neurotransmissores que atravessam a fenda sináptica. Essa interação entre neurônios é crucial para processos como aprendizado, memória e controle motor, destacando a complexidade e a importância dos neurônios na função cerebral.</p>
+            <img src="sinapse.PNG" alt="Imagem do Neurônio">
+        </div>
+
+        <div class="text-container">
+            <h2>A Importância dos Neurônios</h2>
+            <p>A importância dos neurônios vai além do sistema nervoso central, sendo essenciais para o funcionamento de órgãos e sistemas corporais. Alterações na estrutura ou função dos neurônios podem levar a doenças neurodegenerativas, como Alzheimer, Parkinson e esclerose múltipla, que afetam a comunicação neural e comprometem a saúde mental e física.</p>
+            <p>Essas células são fundamentais para todas as nossas funções cognitivas e motoras, tornando-se a base do nosso comportamento, emoções e habilidades de adaptação.</p>
+            <img src="neuroniosinapse.webp" alt="Imagem do Neurônio">
+        </div>
+
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2024 Desinformáticos. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
